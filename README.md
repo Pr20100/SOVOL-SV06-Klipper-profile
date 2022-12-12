@@ -24,7 +24,7 @@ You'll need a raspberry pi with it's own SD card, micro-usb cable to connect to 
 5- Connect your printer by USB to the raspberry and go to your raspberry IP adress
 
 
-6- Upload the configuration files in your raspberry :
+6- Download .zip bundle file attached and Upload the configuration files in your raspberry :
 
   -> PRINTER.CFG in /home/pi/klipper_config/ directory, to have /home/pi/klipper_config/printer.cfg
   
