@@ -1,5 +1,5 @@
 # SOVOL-SV-06-Klipper-profile
-Complete Klipper profile with all config files and macros to tune the printer (stock)
+Complete Klipper profile with all config files and macros to tune the Sovol SV06 (stock)
 
 You'll need a raspberry pi with it's own SD card, micro-usb cable to connect to the printer mainboard and another SD card to flash the printer
 
