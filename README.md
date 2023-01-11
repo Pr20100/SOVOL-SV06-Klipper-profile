@@ -51,6 +51,6 @@ You'll need a raspberry pi with it's own SD card, micro-usb cable to connect to 
                                             [virtual_sdcard]
                                             path: /home/pi/printer_data/gcodes
                                             
-  -> See available options under /config/options.cfg
+  -> See available optionnal printing profiles in printer.cfg and options under /config/options.cfg
   
  Happy printing ;)
