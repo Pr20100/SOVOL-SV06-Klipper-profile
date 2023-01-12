@@ -53,4 +53,6 @@ You'll need a raspberry pi with it's own SD card, micro-usb cable to connect to 
                                             
   -> See available optionnal printing profiles in printer.cfg and options under /config/options.cfg
   
+  For presure advance tuning, you can use this wonderfull tool : https://ellis3dp.com/Pressure_Linear_Advance_Tool/
+  
  Happy printing ;)
