@@ -44,14 +44,17 @@ You'll need a raspberry pi with it's own SD card, micro-usb cable to connect to 
 
 6- Download .zip bundle file attached and Upload the configuration files in your raspberry :
 
- -> PRINTER.CFG in /home/pi/klipper_config/ directory, to have /home/pi/klipper_config/printer.cfg
+ -> PRINTER.CFG in /home/pi/printer_data/config directory, to have /home/pi/printer_data/config/printer.cfg
   
- -> CONFIG folder WITH ALL IT'S CONTENT in the same directory, respeting the architecture, to have /home/pi/klipper_config/config/ with all the files and folders in it :
+ -> CONFIG folder WITH ALL IT'S CONTENT in the same directory, respecting the path, with all the files and folders in it :
    - using web interface you will have to create folders yourself (case sensitive be carrefull)
    - using an FTP client like FILEZILA https://filezilla-project.org/
   
   
-7- You should be able to connect klipper to the printer, if not you probably have a flash problem. Check if the SD card is correctly formated and change the name of your .bin (cause the printer don't flash if she receive the same name file twice)
+7- You should be able to connect klipper to the printer, if not you probably have a flash problem OR an USB cable issue :
+- Try others USB cable lying aroud (from me it was the third tested who worked
+        Still not working
+- Check if the SD card is correctly formated (see 3rd step) and change the name of your .bin (cause the printer don't flash if she receive the same name file twice)
   
   
 8- Things to do before printing
