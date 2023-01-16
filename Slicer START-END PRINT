@@ -1,0 +1,32 @@
+@@@@@@@@@@ GCODE FOR SLICER START / END PRINT MACROS @@@@@@@@@
+
+#### PRUSASLICER ####
+in Printer settings / General/
+Gcode flavor : RepRap/Sprinter
+
+in Printer settings / Custom Gcode
+  - START GCODE :
+M104 S0
+M190 S0
+START_PRINT EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature]
+  - END GCODE :
+END_PRINT
+
+#### SUPERSLICER #### 
+in Printer settings / General/
+Gcode flavor : KLIPPER
+
+in Printer settings / Custom Gcode
+  - START GCODE :
+START_PRINT EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature]
+  -  END GCODE :
+END_PRINT
+
+#### CURA #### 
+in top menu Settings / Manage printers / Printers / select your printer then Machine settings
+
+  - START GCODE :
+START_PRINT EXTRUDER={material_print_temperature_layer_0} BED={material_bed_temperature_layer_0}
+  - END GCODE :
+END_PRINT
+
