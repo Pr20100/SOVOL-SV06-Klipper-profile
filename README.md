@@ -3,8 +3,6 @@ Complete Klipper profile with all config files and macros to tune the Sovol SV06
 
 What's included :
 
-- Slicers Start/End macros config : https://github.com/Pr20100/SOVOL-SV06-Klipper-profile/tree/main
-
 - Klipper profile, already tuned with :
 
         - 3 printing mode
@@ -18,6 +16,10 @@ What's included :
                   -  Z-offset
                   -  input shapper (resonnance compensation using ADXL module)
                   -  screws adjust (tilt bed screws)
+                  
+- Slicers Start/End macros config :
+https://github.com/Pr20100/SOVOL-SV06-Klipper-profile/blob/main/Slicer%20START-END%20PRINT
+
 
 How to use :
 
