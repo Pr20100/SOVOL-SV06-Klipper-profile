@@ -9,6 +9,7 @@ in Printer settings / Custom Gcode
 M104 S0
 M190 S0
 START_PRINT EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature]
+BED_MESH_PROFILE LOAD=default
   - END GCODE :
 END_PRINT
 
@@ -19,6 +20,7 @@ Gcode flavor : KLIPPER
 in Printer settings / Custom Gcode
   - START GCODE :
 START_PRINT EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature]
+BED_MESH_PROFILE LOAD=default
   -  END GCODE :
 END_PRINT
 
@@ -27,6 +29,7 @@ in top menu Settings / Manage printers / Printers / select your printer then Mac
 
   - START GCODE :
 START_PRINT EXTRUDER={material_print_temperature_layer_0} BED={material_bed_temperature_layer_0}
+BED_MESH_PROFILE LOAD=default
   - END GCODE :
 END_PRINT
 
