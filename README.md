@@ -59,7 +59,7 @@ You'll need a raspberry pi with it's own SD card, micro-usb cable to connect to 
 7- You should be able to connect klipper to the printer, if not you probably have a flash problem OR an USB cable issue :
 - Try others USB cable lying aroud (from me it was the third tested who worked)
 If still not work
-- Check if the SD card is correctly formated (see 3rd step, change the name of your .bin (cause the printer don't flash if she receive the same name file twice) and reflash
+- Check if the SD card is correctly formated (see 3rd step), change the name of your .bin (cause the printer don't flash if she receive the same name file twice) and reflash
   
   
 8- Things to do before printing
