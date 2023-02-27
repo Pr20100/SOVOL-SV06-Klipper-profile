@@ -50,6 +50,11 @@ You'll need a raspberry pi with it's own SD card, micro-usb cable to connect to 
 6- Download .zip bundle file attached and Upload the configuration files in your raspberry :
 
  -> PRINTER.CFG in /home/pi/printer_data/config directory, to have /home/pi/printer_data/config/printer.cfg
+   - check the correct value for the serial field in the mcu section and replace it with the output of `ls /dev/serial/by-id/*`
+   
+                [mcu]
+                #serial: /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0 #old value
+                serial: /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0
   
  -> CONFIG folder WITH ALL IT'S CONTENT in the same directory, respecting the path, with all the files and folders in it :
    - using web interface you will have to create folders yourself (case sensitive be carrefull)
