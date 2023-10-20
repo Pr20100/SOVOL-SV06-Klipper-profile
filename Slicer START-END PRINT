@@ -2,7 +2,7 @@
 
 #### PRUSASLICER ####
 in Printer settings / General/
-Gcode flavor : RepRap/Sprinter
+Gcode flavor : Klipper/RepRap/Sprinter
 
 in Printer settings / Custom Gcode
   - START GCODE :
